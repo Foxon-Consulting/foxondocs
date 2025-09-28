@@ -38,11 +38,11 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs"
+    url: "https://foxon-consulting.github.io/foxondocs/docs"
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "/docs"
+    url: "https://foxon-consulting.github.io/foxondocs/docs"
 
   info: "**Open Source** MIT Licensed."
 
@@ -67,7 +67,7 @@ imageText:
 
   ctaButton:
       text: Learn more
-      url: "/docs/"
+      url: "https://foxon-consulting.github.io/foxondocs/docs/"
 
   image:
     path: "images"
