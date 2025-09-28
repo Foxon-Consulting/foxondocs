@@ -1,7 +1,11 @@
-baseURL = 'https://github.com/Foxon-Consulting/foxondocs.git'
+baseURL = 'https://foxon-consulting.github.io/foxondocs/'
 languageCode = 'en-us'
 title = 'FOXON DOCS'
 
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [module]
     [[module.imports]]

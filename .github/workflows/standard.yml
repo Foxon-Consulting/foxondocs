@@ -21,7 +21,7 @@ jobs:
         with:
           RELEASE_PLEASE_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
 
-  call-publish:
+  call-hugo:
     needs: releasing
     if: github.event_name == 'release' && github.event.action == 'published'
-    uses: ./.github/workflows/publish.yml
+    uses: ./.github/workflows/hugo.yml
