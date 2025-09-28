@@ -1,4 +1,4 @@
-baseURL = 'http://127.0.0.1:8093/'
+baseURL = 'https://github.com/Foxon-Consulting/foxondocs.git'
 languageCode = 'en-us'
 title = 'FOXON DOCS'
 
