@@ -1,0 +1,10 @@
+services:
+  hugo-toolkit-mydoc:
+    image: hugo-toolkit
+    container_name: hugo-toolkit-mydoc
+    ports:
+      - 8093:1313
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: tail -f /dev/null

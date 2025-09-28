@@ -1,0 +1,85 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  titleLogo:
+      path: "logos"
+      filename: "logo-green.png"
+      alt: "Lotus Docs Logo"
+      height: 80px
+      info: "Foxon Consulting All rights reserved"
+
+  backgroundImage:
+    path: "backgrounds"
+    filename:
+      desktop: "fondblanc.jpg"
+      mobile: "fondblanc.jpg"
+
+  badge:
+    # x-release-please-start-version
+    text: v0.1.0
+    # x-release-please-end
+    color: dark # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "Foxon Consulting"
+  subtitle: "Documentation Foxon Consulting"
+
+  # image:
+  #   path: "logos" # path to image under configured assets directory. default 'images'
+  #   filename: "logo-green.png" # filename of your hero image (including file extension)
+  #   alt: "Foxon Consulting Logo" # Optional but recommended
+  #   boxShadow: true # default 'false' (excludes .svg images)
+  #   rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs"
+  cta2Button:
+    icon: construction
+    btnText: "In Development"
+    url: "/docs"
+
+  info: "**Open Source** MIT Licensed."
+
+
+imageText:
+  template: image text
+  enable: false
+  weight: 20
+  title: "title"
+  subtitle: "subtitle"
+
+  list:
+  - text: Blazing fast page loads
+    icon: speed
+
+  - text: Sensible default SEO friendly settings
+    icon: area_chart
+
+  - text: Designed to be accessible
+    icon: accessibility
+
+
+  ctaButton:
+      text: Learn more
+      url: "/docs/"
+
+  image:
+    path: "images"
+    filename: "boussole.jpg"
+    alt: "Boussole" # Optional but recommended
+
+  imgOrder:
+    desktop: 2
+    mobile: 1  
+
+featureGrid:
+  enable: false
+
+imageCompare:
+  enable: false
