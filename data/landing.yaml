@@ -19,7 +19,7 @@ hero:
 
   badge:
     # x-release-please-start-version
-    text: v0.1.0
+    text: v1.0.2
     # x-release-please-end
     color: dark # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean

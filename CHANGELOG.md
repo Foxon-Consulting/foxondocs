@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Foxon-Consulting/foxondocs/compare/1.0.1...1.0.2) (2025-09-28)
+
+
+### Bug Fixes
+
+* :construction_worker: fix versioning for hugo ([3bf1c3b](https://github.com/Foxon-Consulting/foxondocs/commit/3bf1c3b46ffaedea67e9cb6ed9c3a78067526f72))
+
 ## [1.0.1](https://github.com/Foxon-Consulting/foxondocs/compare/1.0.0...1.0.1) (2025-09-28)
 
 
