@@ -7,9 +7,13 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "include-v-in-tag": false
+      "include-v-in-tag": false,
+      "extra-files": [
+        "data/landing.yaml"
+      ]
     }
   },
   "group-pull-request-title-pattern": "chore(main): :bookmark: release ${version}",
+  "pull-request-title-pattern": "chore(main): :bookmark: release ${version}",
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
