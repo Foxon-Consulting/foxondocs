@@ -38,11 +38,11 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "docs"
+    url: "/docs"
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "docs"
+    url: "/docs"
 
   info: "**Open Source** MIT Licensed."
 
@@ -67,7 +67,7 @@ imageText:
 
   ctaButton:
       text: Learn more
-      url: "docs/"
+      url: "/docs/"
 
   image:
     path: "images"
