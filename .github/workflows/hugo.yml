@@ -80,6 +80,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --baseURL "https://foxon-consulting.github.io/foxondocs/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
